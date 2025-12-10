@@ -1,7 +1,6 @@
 # 🍕 CookExpress API - Gestión de Menú
 ## 🛠️ Backend RESTful con Spring Boot
 
-**Asegúrate de cambiar `mockup_front.png` por el nombre real de tu archivo en la carpeta `img`**
 ![Sistema de Gestión de Pedidos CookExpress](img/mockup_front.png)
 
 [![Java](https://img.shields.io/badge/Java-17+-blue)](https://www.java.com/es/)
@@ -58,23 +57,4 @@ Aquí puedes ver una explicación detallada de la arquitectura y la demostració
 
 **[PEGA AQUÍ EL LINK DE TU VIDEO DE YOUTUBE]**
 
----
 
-## 💾 Último Commit y Push
-
-Una vez que guardes el `README.md` modificado con la imagen, haz el último *commit* para subirlo a GitHub:
-
-1.  **Añade el `README.md`:**
-    ```bash
-    git add README.md
-    ```
-2.  **Crea el Commit:**
-    ```bash
-    git commit -m "Docs: Agregada imagen de portada y tabla de endpoints en el README.md final."
-    ```
-3.  **Sube los Cambios:**
-    ```bash
-    git push origin main
-    ```
-
-**¡Con este paso, tu proyecto estará impecable y listo para la entrega final!**
