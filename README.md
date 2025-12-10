@@ -57,5 +57,5 @@ Todos los endpoints usan la base URL: `http://localhost:8080/api/dishes`.
 Aquí puedes ver una explicación detallada de la arquitectura y la demostración funcional de todos los *endpoints* CRUD.
 
 **[https://youtu.be/8XvjwdiFYzQ]**
-
+📢 Nota Importante: Explicación y Subtítulos⚠️ Asegúrate de activar los subtítulos (CC) en el reproductor de YouTube.El video fue acelerado a $1.5\text{x}$ para mayor concisión, y toda la explicación técnica de la arquitectura, endpoints y demostración está sincronizada con los subtítulos.
 
