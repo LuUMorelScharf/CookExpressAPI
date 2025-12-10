@@ -1,7 +1,6 @@
 # 🍕 CookExpress API - Gestión de Menú
 ## 🛠️ Backend RESTful con Spring Boot
 
-cookexpressapi.png
 
 ![Sistema de Gestión de Pedidos CookExpress](img/cookexpressapi.png)
 
