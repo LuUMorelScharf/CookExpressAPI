@@ -1,6 +1,9 @@
 # 🍕 CookExpress API - Gestión de Menú
 ## 🛠️ Backend RESTful con Spring Boot
 
+**Asegúrate de cambiar `mockup_front.png` por el nombre real de tu archivo en la carpeta `img`**
+![Sistema de Gestión de Pedidos CookExpress](img/mockup_front.png)
+
 [![Java](https://img.shields.io/badge/Java-17+-blue)](https://www.java.com/es/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2+-brightgreen)](https://spring.io/projects/spring-boot)
 [![Maven](https://img.shields.io/badge/Build-Maven-orange)](https://maven.apache.org/)
@@ -13,13 +16,13 @@ Esta API RESTful está diseñada para la gestión completa del menú (platillos)
 **Funcionalidad principal:** CRUD (Crear, Leer, Actualizar, Eliminar) para la entidad `Dish`.
 
 ## 🏗️ Arquitectura y Buenas Prácticas
-Este proyecto sigue una arquitectura hexagonal (por capas) estricta, incorporando los siguientes patrones avanzados:
+Este proyecto sigue una arquitectura hexagonal (por capas) estricta, incorporando los siguientes patrones avanzados, clave para la calidad del código:
 
 | Patrón | Implementación | Propósito |
 | :--- | :--- | :--- |
 | **Arquitectura de Capas** | `Controller`, `Service`, `Repository` | Separa responsabilidades, siguiendo el principio de S.O.L.I.D. |
-| **Service Interface** | **`IDishService`** | Desacopla el `Controller` de la implementación (`DishService`), facilitando el *testing* y el cambio de lógica. |
-| **DTOs (Data Transfer Objects)** | `DishRequest` y `DishResponse` | **Seguridad y Contrato.** Evita exponer la Entidad `Dish` al cliente, controlando exactamente qué datos entran (`Request`) y cuáles salen (`Response`). |
+| **Service Interface** | **`IDishService`** | Desacopla el `Controller` de la implementación, facilitando el *testing* y el cambio de lógica. |
+| **DTOs (Data Transfer Objects)** | `DishRequest` y `DishResponse` | **Seguridad y Contrato.** Evita exponer la Entidad `Dish` al cliente y controla la interfaz de datos. |
 | **Mapper** | `DishMapper` | Encargado de la traducción segura entre `DTO` y la Entidad `Dish`. |
 
 ## 🚀 Cómo Ejecutar la Aplicación
@@ -51,6 +54,27 @@ Todos los endpoints usan la base URL: `http://localhost:8080/api/dishes`.
 
 ## 🎥 Video Demostración (Proof of Concept)
 
-Aquí puedes ver una explicación detallada de la arquitectura, la implementación de los DTOs y una demostración funcional de todos los *endpoints* CRUD en Postman, incluyendo el manejo de errores para recursos no encontrados.
+Aquí puedes ver una explicación detallada de la arquitectura y la demostración funcional de todos los *endpoints* CRUD.
 
 **[PEGA AQUÍ EL LINK DE TU VIDEO DE YOUTUBE]**
+
+---
+
+## 💾 Último Commit y Push
+
+Una vez que guardes el `README.md` modificado con la imagen, haz el último *commit* para subirlo a GitHub:
+
+1.  **Añade el `README.md`:**
+    ```bash
+    git add README.md
+    ```
+2.  **Crea el Commit:**
+    ```bash
+    git commit -m "Docs: Agregada imagen de portada y tabla de endpoints en el README.md final."
+    ```
+3.  **Sube los Cambios:**
+    ```bash
+    git push origin main
+    ```
+
+**¡Con este paso, tu proyecto estará impecable y listo para la entrega final!**
