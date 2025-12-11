@@ -2,7 +2,8 @@
 ## 🛠️ Backend RESTful con Spring Boot
 
 
-![Sistema de Gestión de Pedidos CookExpress](src/img/cookexpressapi.png)
+<img src="src/img/cookexpressapi.png" alt="Logo de CookExpressAPI" width="50%"/>
+
 
 [![Java](https://img.shields.io/badge/Java-17+-blue)](https://www.java.com/es/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2+-brightgreen)](https://spring.io/projects/spring-boot)
